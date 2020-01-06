@@ -16,7 +16,7 @@ As an employer I expect to see owners skill set and previous/current work.
 
 ### Strategy
 
-The focus and goal for this website design is to showcase my recent work in a way that is easy to understand - including what I offer and and what they can expect from my work. I have created the landing page with particles.js to make make the design more interesting and engaging for users.
+The focus and goal for this website design is to showcase my recent work in a way that is easy to understand - including what I offer and what they can expect from my work. I have created the landing page with particles.js to make the design more interesting and engaging for users.
 
 ### Scope
 
@@ -24,7 +24,7 @@ For potential clients and employers, I have included some information on my back
 
 ### Structure
 
-From the landing page people can promptly access my "work section" and "contact" through the two buttons below the heading. Also below to the bottom right of the screen is my full name and icons linking to both my Github page and Linked in profile. Further down the page is a small introduction about myself that then leads onto my skill-set which is displayed though icons of different languages. The portfolio section gives a top picture to every project card as well as a brief description on what the project is, technologies nad languages used to build it.
+From the landing page people can promptly access my "work section" and "contact" through the two buttons below the heading. Also below to the bottom right of the screen is my full name and icons linking to both my Github page and Linked in profile. Further down the page is a small introduction about myself that then leads onto my skill-set which is displayed though icons of different languages. The portfolio section gives a top picture to every project card as well as a brief description on what the project is, technologies and languages used to build it.
 
 
 
@@ -36,7 +36,7 @@ The theme for this website has a dark style to it as well as a depth effect from
 
 1. HTML 5
 2. CSS 3
-3. JS - (Particles.js libray)
+3. JS - (Particles.js library)
 4. BootStrap 4.3.1
 
 
@@ -47,15 +47,15 @@ The theme for this website has a dark style to it as well as a depth effect from
 
 
 
-This site features a landing page which loads a lightweight javascrpt library called Particles.js built by Vincent ... this library creates an animated particles effect which can be easily modified through the .Json file and hosted through a CDN.
+This site features a landing page which loads a lightweight javascrpt library called Particles.js built by Vincent Garreau. This library creates an animated particles effect which can be easily modified through the .Json file and hosted through a CDN.
 
-Another feauture I have added is the Animate-On-Scoll library. It allows you to easliy add attributes to any section to create a range of animated effects on scroll.
+Another feature I have added is the Animate-On-Scroll library. It allows you to easily add attributes to any section to create a range of animated effects on scroll.
 
-The "Skills" section feautures icons from DevIcons along with A-O-S library to display the different technoligies I use. 
+The "Skills" section features icons from DevIcons along with A-O-S library to display the different technologies I use. 
 
-The "Porfolio" section uses a card deck with images on top to display most recent projects/work with a project discription. 
+The "Portfolio" section uses a card deck with images on top to display most recent projects/work with a project description. 
 
-The "My Services" sections gives a list of information on what differnt services I offer. Below is the contact form where users can submit their information and send me a message if they want to reach out.
+The "My Services" sections gives a list of information on what different services I offer. Below is the contact form where users can submit their information and send me a message if they want to reach out.
 
 
 ### Features Left to Implement
@@ -70,7 +70,7 @@ The "My Services" sections gives a list of information on what differnt services
     - This project uses the framework **Bootstrap 4.3.1** - Used for quick implementation of CSS classes and styles
 
 - JAVASCTIPT
-    - The project uses **Particles.JS** to create a linked falling particle effect feautured on the landing page (https://github.com/VincentGarreau/particles.js/)
+    - The project uses **Particles.JS** to create a linked falling particle effect featured on the landing page (https://github.com/VincentGarreau/particles.js/)
 
 - A-O-S Animate on Scroll library
     - This project uses A-O-S for smooth scrolling effect on animation
@@ -79,10 +79,10 @@ The "My Services" sections gives a list of information on what differnt services
 ## Testing
 
 
-The Goal of the user stories was achieved through providing clients and employers with information on myself, my skill set, what I offer and how they can contact me by email. The landing page contains my title as a software developer with two buttons leading to  the "portfolio" section and  the "contact" section for quick view. The landing page also has my full name to the bottom right, and below, two icons href linked to my personal Github account and LinkedIn profile. My work is showcased in the "portfolio" section, which allows them to see my most recent projects and the technoligies used in development. The project cards give a brief description on what the project is or who for, with the functionality of two buttons ("View Live" & "Source") that leads them to either to the deployed project or it's GitHub reposistory in a new tab. 
+The Goal of the user stories was achieved through providing clients and employers with information on myself, my skill set, what I offer and how they can contact me by email. The landing page contains my title as a software developer with two buttons leading to  the "portfolio" section and  the "contact" section for quick view. The landing page also has my full name to the bottom right, and below, two icons href linked to my personal Github account and LinkedIn profile. My work is showcased in the "portfolio" section, which allows them to see my most recent projects and the technologies used in development. The project cards give a brief description on what the project is or who for, with the functionality of two buttons ("View Live" & "Source") that leads them to either to the deployed project or it's GitHub repository in a new tab. 
 
 
-To test the layout and responsivness of this design, it was first used chrome developer tools and then conducted tests throug a variety of web browsers and devices such as: 
+To test the layout and responsiveness of this design, it was first used chrome developer tools and then conducted tests through a variety of web browsers and devices such as: 
 
 1. Web Browsers 
     
@@ -92,7 +92,7 @@ To test the layout and responsivness of this design, it was first used chrome de
 
 2. Mobile Devices
     
-    1. Iphone 4, 5, 6, 7, 8, X - Responsive bug with extra padding fixed with adding margin-left/right: 0px!imprtant; to row and container-fluid class
+    1. Iphone 4, 5, 6, 7, 8, X - Responsive bug with extra padding fixed with adding margin-left/right: 0px!important; to row and container-fluid class
     2. Ipad/Pro
     3. Surface pro
     4. Samsung Galaxy S5
@@ -110,9 +110,9 @@ To test the layout and responsivness of this design, it was first used chrome de
 4. Testing Particles.js
     1. To load this library and test this on a local machine you have to use a local server (I used live-server - installed through npm) which hot reloads for quick testing 
    
-    2. Alternativly you can host the library through Vincents CDN
+    2. Alternatively you can host the library through Vincents CDN
     
-    3. Extensive testing and modifcation of the .json files to experiment with diffent effects available to suit this design. - Any bugs can be easily found in the chrome debug console in Devtools
+    3. Extensive testing and modification of the .json files to experiment with different effects available to suit this design. - Any bugs can be easily found in the chrome debug console in Devtools
 
 
 
@@ -122,7 +122,7 @@ To test the layout and responsivness of this design, it was first used chrome de
 I have used Github pages for the hosting and deployment of this website. Each time the master branch has a new commit, it will automatically updates to the live page.
 
 Through the development process, the particles.js library was hosted through my local machine and now is hosted though a CDN on live deployment. 
-If you want to run the whole page locally you will have to replace the Bootstap 4 CDN, AOS-Library CDN, and Particles.js with their local respositories 
+If you want to run the whole page locally you will have to replace the Bootstrap 4 CDN, AOS-Library CDN, and Particles.js with their local repositories 
 
 
 
