@@ -2,6 +2,8 @@
 
 User-Centric Frontend Development - Milestone Project 1
 
+Deployed Website: https://alexszkdev.github.io/Code-Institute-Milestone-1/#
+
 This website is my portfolio for potential clients, employers and recruiters. The portfolio includes some information about myself and also displays my skills and recent work.
  
 ## UX
